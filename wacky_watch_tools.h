@@ -7,7 +7,7 @@
                                 "Ingrese nuevamente la opcion acorde al mensaje en pantalla", 
                                 "Presione ENTER para continuar"};
 
-    void _watch_integers_numbers();
+    int _watch_integers_numbers();
     int _watch_integers_numbers_into_range(int max, int min);
     float _watch_doubles_numbers();
     float _watch_doubles_numbers_into_range(float max, float min);

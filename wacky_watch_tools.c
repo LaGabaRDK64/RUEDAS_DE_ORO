@@ -74,7 +74,7 @@ void _watch_string_NOTNUMBERS(char _my_text[50]){
 
 /* >>>> VALIDACIONES CON NUMEROS */
 
-void _watch_integers_numbers(){
+int _watch_integers_numbers(){
 
     char buffer[20];
     int number;
@@ -126,6 +126,7 @@ void _watch_integers_numbers(){
 
     };
 
+    return number;
 }
 
 int _watch_integers_numbers_into_range(int max, int min){
